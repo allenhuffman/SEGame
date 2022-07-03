@@ -13,7 +13,7 @@ the system memory map.
 Several clever programmers have come up with ways to do this.  Also, the NitrOS-9 patches (which optimize OS-9 to run faster if your computer has a
 6309 chip installed) provide the much needed system call for this as well.
 
-This article will attempt to cover both methods.  The stock OS-9 method, provided by Robert Gualt, will return information for the CURRENTLY DISPLAYED
+This article will attempt to cover both methods.  The stock OS-9 method, provided by Robert Gault, will return information for the CURRENTLY DISPLAYED
 screen.  This means that the user MUST be looking at the graphics screen for it to work properly.  If a user attempts to run the program then flips to
 another screen before it starts, the program will crash.  The NitrOS-9 method, on the other hand, provides information based on a path to the window,
 whether it's currently displayed or not.
